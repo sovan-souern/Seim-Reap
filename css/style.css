@@ -70,3 +70,6 @@ header .container-fluid img {
   max-height: 250px;
   object-fit: cover;
 }
+.me-2{
+  border-radius: 30px;
+}
