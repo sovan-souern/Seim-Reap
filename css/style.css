@@ -1,0 +1,72 @@
+.hero {
+    background: url('siem-reap-background.jpg') no-repeat center center/cover;
+    color: white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .gallery img {
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .testimonials {
+    background: #f8f9fa;
+  }
+  .testimonials .card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  #back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  footer h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+footer a {
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #ffc107;
+}
+header a {
+  transition: color 0.3s;
+}
+
+header a:hover {
+  color: #ffc107;
+}
+
+header .container-fluid img {
+  max-height: 250px;
+  object-fit: cover;
+}
